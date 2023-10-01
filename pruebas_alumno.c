@@ -608,3 +608,4 @@ int main()
 	
 	return pa2m_mostrar_reporte();
 }
+

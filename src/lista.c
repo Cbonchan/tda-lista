@@ -81,7 +81,6 @@ lista_t *lista_insertar_en_posicion(lista_t *lista, void *elemento,
 		return lista;
 	}
 	
-	
 	nodo_t *aux = lista->nodo_inicio;
 	nodo_t *anterior = lista->nodo_inicio;
 	nodo_t *nuevo = malloc(sizeof(nodo_t));
